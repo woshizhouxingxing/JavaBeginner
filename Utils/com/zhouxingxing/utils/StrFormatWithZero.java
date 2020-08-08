@@ -7,8 +7,6 @@ public class StrFormatWithZero {
     }
 //    String前补0
 //　　java的String字符串补0或空格
-//
-//　　方法一：自己写的方法
 
     /*
 
