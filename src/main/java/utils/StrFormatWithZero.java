@@ -1,4 +1,4 @@
-package com.zhouxingxing.utils;
+package utils;
 
 public class StrFormatWithZero {
     public static void main(String[] args) {
