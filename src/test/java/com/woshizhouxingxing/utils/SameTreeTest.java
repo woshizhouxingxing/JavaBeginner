@@ -1,5 +1,4 @@
-import utils.SameTree;
-import utils.TreeNode;
+package com.woshizhouxingxing.utils;
 
 import java.io.BufferedReader;
 import java.io.IOException;

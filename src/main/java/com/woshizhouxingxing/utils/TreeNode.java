@@ -1,4 +1,4 @@
-package utils;
+package com.woshizhouxingxing.utils;
 
 public class TreeNode {
      public int val;

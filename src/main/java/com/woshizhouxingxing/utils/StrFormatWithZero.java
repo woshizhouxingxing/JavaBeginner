@@ -1,4 +1,4 @@
-package utils;
+package com.woshizhouxingxing.utils;
 
 public class StrFormatWithZero {
     public static void main(String[] args) {
@@ -19,14 +19,14 @@ public class StrFormatWithZero {
     public static String addZeroForNum(String str, int strLength) {
         int strLen = str.length();
         if (strLen < strLength) {
+            StringBuilder strBuilder = new StringBuilder(str);
             while (strLen < strLength) {
-                StringBuilder sb = new StringBuilder();
                 //左补0
-                sb.append("0").append(str);
 
-                str = sb.toString();
-                strLen = str.length();
+                strBuilder.insert(0, "0");
+                strLen = strBuilder.length();
             }
+            str = strBuilder.toString();
         }
         return str;
     }

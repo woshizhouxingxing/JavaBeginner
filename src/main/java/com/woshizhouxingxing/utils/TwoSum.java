@@ -1,4 +1,4 @@
-package utils;
+package com.woshizhouxingxing.utils;
 
 import java.util.HashMap;
 import java.util.Map;
