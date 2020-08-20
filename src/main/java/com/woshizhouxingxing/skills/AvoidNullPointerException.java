@@ -5,7 +5,7 @@ import java.util.Objects;
 /**
  * @author W12571
  */
-public class AvoidNullPointException {
+public class AvoidNullPointerException {
     public static void main(String[] args) {
         String str = null;
 
