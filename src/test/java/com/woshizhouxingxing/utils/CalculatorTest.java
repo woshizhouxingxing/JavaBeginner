@@ -21,10 +21,9 @@ public class CalculatorTest {
     }
 
     @Test
-    public void ss(){
-        int n=Integer.parseInt("10011001",2);
-        int m=Integer.parseInt("11000000",2);
-        System.out.println(Integer.toBinaryString(8));
-        Assert.assertEquals(Integer.toBinaryString(32), Integer.toBinaryString(n+m));
+    public void ss() {
+        int ss = 034;
+        System.out.println(ss);
+//        Assert.assertTrue(poType.contains("D") || poType.contains("H") || poType.contains("T"));
     }
 }
